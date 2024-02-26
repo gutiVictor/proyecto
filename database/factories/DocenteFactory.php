@@ -16,6 +16,8 @@ class DocenteFactory extends Factory
      */
     public function definition(): array
     {
+
+        /* retornamos un arreglo con los datos del docente */
         return [
             'nombre' => $this->faker->name(),
             'apellido' => $this->faker->lastName(),
